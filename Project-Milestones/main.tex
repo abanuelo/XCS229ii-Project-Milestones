@@ -1,0 +1,178 @@
+\input{macros}
+
+\begin{document}
+
+\pagestyle{myheadings} \markboth{}{XCS229ii Project Milestones}
+
+\huge\noindent XCS229ii Project Milestones
+
+\ruleskip
+
+%PROJECT INTRODUCTION
+\large
+\textbf{Project Introduction}\vspace{\baselineskip}
+
+\normalsize
+In your final project, you will choose a Machine Learning topic or technique and explore it in depth. Since this course is an extension of XCS229i Machine Learning, you can build a project with deep learning, unsupervised learning, supervised learning, and/or reinforcement learning frameworks. With this opportunity, we invite you to gain hands-on practice with the techniques from this course on datasets that may have direct application to your professional work or even develop new methods in the field of machine learning!\vspace{\baselineskip}
+
+You will work in groups of up to four to apply the techniques that you've learned in this class to a new setting that you're interested in. Note that, regardless of the group size, all groups must submit the same basic amount of work detailed in each milestone and will be graded on the same criteria. All projects are required to spend a decent minimum effort towards gathering data and setting up the scientific process infrastructure to reach a result or test a hypothesis.\vspace{\baselineskip}
+
+You will build a system to solve a well-defined task. Which task you choose is completely open-ended, but the methods you use must draw on techniques taught in this course or from XCS229i. After you submit your proposal, you will be assigned one of the CAs as your official mentor. He or she will guide you through the process, grade your project, and answer any questions you have along the way. \vspace{\baselineskip}
+
+The project will consist of the following milestones:
+\begin{enumerate}
+    \item \textbf{[5 points]} Proposal -- Due 10/17/2020
+    \item \textbf{[5 points]} Literature Review -- Due 10/17/2020 
+    \item \textbf{[5 points]} Experimental Protocol -- Due 10/17/2020
+    \item \textbf{[5 points]} Final Paper and Optional Video Presentation -- Due 10/17/2020
+\end{enumerate}
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+
+%Submission Format
+\large
+\textbf{Submission Format}\vspace{\baselineskip}
+
+\normalsize
+For each milestone, the format of submission is of your choosing. You can generate a PDF or word document to keep track of your progress. Courtesy of the teaching team, we have provided you with ACL-formated LaTeX and Word templates commonly used for academic research conferences in AI: \textbf{\href{http://acl2020.org/downloads/acl2020-templates.zip}{ACL-template}}. Here are the ACL LaTeX and Word templates. Using a template from a different year is fine
+
+\clearpage
+
+%Milestone 1: Proposal
+\large
+\textbf{[5 points] Milestone 1: Proposal (1 page) -- Due November 1st, 2020}
+
+\ruleskip
+
+\normalsize
+The goal of this milestone is to give you the opportunity to explore different areas of interest in order to generate an idea of the input-output behavior of your chosen system or technique. For starters, we recommend you refer to the guiding questions and resources below. In terms of submission, please submit a one page summary describing the importance of your system or technique, the problem it attempts to solve, and the input-output behavior of your model. Note that you can still adjust your project topic after submitting the proposal. \vspace{\baselineskip}
+
+\textbf{Guiding Questions: }
+\begin{itemize}
+    \item What does your system do? What are its inputs and outputs?
+    \item If your system solves a real-world problem, describe it.
+    \item How will you measure the success of your system?
+    \item What datasets are you using?
+    \item What are the challenges of building the system?
+    \item What is the phenomenon in the data that you are trying to capture?
+    \item Which topics (e.g., search, MDPs, etc.) might be able to address those challenges?
+\end{itemize}
+\vspace{\baselineskip}
+
+\textbf{Research Resources: }
+\begin{itemize}
+    \item \href{https://www.kaggle.com/datasets}{Kaggle}
+    \item \href{https://scholar.google.com/}{Google Scholar}
+    \item \href{https://gym.openai.com/}{OpenAI Gym}
+    \item \href{https://deepmind.com/}{DeepMind}
+    \item \href{https://www.mitpressjournals.org/loi/coli}{Association for Computational Linguistics}
+    \item \href{https://openaccess.thecvf.com/menu}{Computer Vision Foundation}
+\end{itemize}
+
+\clearpage
+
+%Milestone 2: Literature Review
+\large
+\textbf{[5 points] Milestone 2: Literature Review (4-5 pages) -- Due November 1st, 2020}
+
+\ruleskip
+
+\normalsize
+This is a short paper summarizing and synthesizing several publications in the area of your final project. In this literature review, you should emphasize how your background research has expanded your understanding of the well-defined problem you proposed in Milestone 1: Proposal. Namely, we stress the importance of looking into how these papers apply Machine Learning Theory in the improvement and development of their models.\vspace{\baselineskip}
+
+The literature review should be divided into the following sections:
+
+\begin{enumerate}
+    \item \textbf{General Problem/Task Definition:} What are these papers trying to solve and why?
+    \item \textbf{Concise Summary:} Put in your own words the major contributions of each article.
+    \item \textbf{Compare \& Contrast:} This is the most important section of a literature review that will become the basis for the models you may expand upon in your project.
+    \begin{enumerate}
+        \item Point out similarities and differences of the papers.  Explain where they agree or disagree with each other.
+        \item If the papers address different subtasks, how are they related?
+        \item How do these papers apply Machine Learning Theory? (e.g. how do they apply bias-variance, train-dev-test splits, error analysis, etc.)
+    \end{enumerate}
+    \item \textbf{Future Work:} Suggest how the work can be extended.
+    \begin{enumerate}
+        \item Are there open questions to answer?
+        \item What Machine Learning Theory technique would you like to use to evaluate the success of your models not presented in the papers? Why?
+    \end{enumerate}
+    \item \textbf{References:} The entries should appear alphabetically and include at least the following information:
+    \begin{enumerate}
+        \item Authors’ full name(s)
+        \item Year of publication
+        \item Title
+        \item Publication outlet if applicable (e.g., journal name or proceedings name).
+    \end{enumerate}
+\end{enumerate}
+
+\clearpage
+
+%Milestone 3: Experimental Protocol
+\large
+\textbf{[5 points] Milestone 3: Experiment Protocol (5-6 pages) -- Due November 1st, 2020}
+
+\ruleskip
+
+\normalsize
+This is a short, structured report designed to help you establish your core experimental framework. The goal for the experimental protocol is to implement any potential extensions you noted in the Milestone 2: Literature Review along with getting hands-on practice with evaluating the models using the Machine Learning Theory frameworks from class. \vspace{\baselineskip}
+
+The experimental protocol should be divided into the following sections:
+\begin{enumerate}
+    \item \textbf{Hypotheses:} A statement of the project's core hypothesis or hypotheses.
+    \item \textbf{Data:} A description of the dataset(s) that the project will use for evaluation.
+    \item \textbf{Metrics:} A description of the metrics that will form the basis for evaluation. We require at least two frameworks from the Machine Learning Theory module in class which includes but is not limited to:
+    \begin{enumerate}
+        \item Error Analysis Diagnostics
+        \item Ablative Analysis
+        \item Approximation and Estimation Errors
+        \item Bias-Variance Diagnostic
+        \item Optimization Diagnostics
+    \end{enumerate}
+    \item \textbf{Models:}  A description of the models that you will use as your baselines and a preliminary description of the model or models that will be the focus of your investigation. At this early stage, some aspects of these models might not yet be worked out, so preliminary descriptions are sufficient.
+    \item \textbf{General reasoning:}An explanation of how the data and models come together to inform your core hypothesis or hypotheses.
+    \item \textbf{Summary of progress so far:} A summary of what you have been doing, what you still need to do, and any obstacles or concerns that might prevent your project from coming to fruition. For all models that have been finished please report their metrics of success. 
+    \item \textbf{References:} In the same format as Milestone 2: Literature Review.
+\end{enumerate}
+
+\clearpage
+
+%Milestone 4: Final Presentation
+\large
+\textbf{[5 points] Milestone 4: Final Paper \& Optional Video Presentation (6-8 pages) -- Due November 1st, 2020}
+
+\ruleskip
+
+\normalsize
+
+The final paper should be a concise summary of the experiments and research of your original problem statement. In this paper, our emphasis will be on the results generated by your models and the ways in which you evaluate their success and ways in which to improve their performance as per their experimentation in Milestone 3: Experimental Protocol. In addition to the paper, you may choose to record an optional 2-3 minute presentation going over the findings of your project. \textbf{If you decide to submit a video presentation, you will be rewarded an additional X extra credit points and your video may be publically highlighted by SCPD.} \vspace{\baselineskip}
+
+The final paper should be divided into the following sections:
+\begin{enumerate}
+    \item \textbf{Abstract:} One paragraph summary of the entire paper which include the results and the implications of those results
+    \item \textbf{Introduction:}
+    \begin{enumerate}
+        \item Describe the topic under investigation
+        \item Summarize prior research in this area
+        \item Identification of unresolved issues that your current paper will address
+        \item Provides a overview of the paper and sections to follow
+    \end{enumerate}
+    \item \textbf{Methods:}
+    \begin{enumerate}
+        \item Define the well-defined task
+        \item Formally describe each model under investigation which should include baseline and experimental model at minimum
+        \item Describe model infrastructure and assumptions, if applicable
+    \end{enumerate}
+    \item \textbf{Results:}
+    \begin{enumerate}
+        \item Describe all Machine Learning Theory techniques used to evaluate the success of the model
+        \item Describe how results compare to previous research
+    \end{enumerate}
+    \item \textbf{Discussion:}
+    \begin{enumerate}
+        \item Describe the significance of your results and how those results address the topic under investigation
+        \item Describe ways of expanding upon the implications of your findings
+        \item Limitations and directions of future research
+    \end{enumerate}
+    \item \textbf{References:} In the same format as Milestone 2: Literature Review.
+\end{enumerate}
+\end{document}
